@@ -1,94 +1,14 @@
-@import '../../../node_modules/normalize.css/normalize.css';
-
-/*! React Starter Kit | MIT License | http://www.reactstarterkit.com/ */
-
 @import '../variables.css';
+@import '../reset.css';
 
 /*
  * Base styles
  * ========================================================================== */
 
-html {
-  color: #222;
-  font-weight: 100;
-  font-size: 1em; /* ~16px; */
+body {
   font-family: var(--font-family-base);
-  line-height: 1.375; /* ~22px */
-}
-
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * These selection rule sets have to be separate.
- * Customize the background color to match your design.
- */
-
-::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-
-::selection {
-  background: #b3d4fc;
-  text-shadow: none;
-}
-
-/*
- * A better looking default horizontal rule
- */
-
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
-}
-
-/*
- * Remove the gap between audio, canvas, iframes,
- * images, videos and the bottom of their containers:
- * https://github.com/h5bp/html5-boilerplate/issues/440
- */
-
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
-  vertical-align: middle;
-}
-
-/*
- * Remove default fieldset styles.
- */
-
-fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
-
-/*
- * Allow only vertical resizing of textareas.
- */
-
-textarea {
-  resize: vertical;
-}
-
-/*
- * Browser upgrade prompt
- * ========================================================================== */
-
-.browserupgrade {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
+  font-size: var(--base-font-size);
+  line-height: var(--baseline-height);
 }
 
 /*
@@ -124,7 +44,6 @@ textarea {
    * Don't show links that are fragment identifiers,
    * or use the `javascript:` pseudo protocol
    */
-
   a[href^="#"]:after,
   a[href^="javascript:"]:after {
     content: "";
@@ -140,7 +59,6 @@ textarea {
    * Printing Tables:
    * http://css-discuss.incutio.com/wiki/Printing_Tables
    */
-
   thead {
     display: table-header-group;
   }

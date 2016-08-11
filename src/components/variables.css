@@ -17,7 +17,9 @@
    * Typography
    * ======================================================================== */
 
-  --font-family-base:      'Segoe UI', 'HelveticaNeue-Light', sans-serif;
+  --font-family-base:       'HelveticaNeue', 'Helvetica', sans-serif;
+  --baseline-height:        2.5em;
+  --base-font-size:         62.5%;
 
   /*
    * Layout
