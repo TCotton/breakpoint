@@ -67,7 +67,7 @@ function run() {
   });
 
   // Save the page scroll position into the current location's state
-  const supportPageOffset = window.pageXOffset !== undefined;
+  const supportPageOffset = (typeof window.pageXOffset !== 'undefined');
   const isCSS1Compat = ((document.compatMode || '') === 'CSS1Compat');
   const setPageOffset = () => {
     currentLocation.state = currentLocation.state || Object.create(null);

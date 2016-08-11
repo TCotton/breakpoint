@@ -5,6 +5,31 @@
   },
   "rules": {
     "react/jsx-quotes": 0,
-    "jsx-quotes": [2, "prefer-double"]
+    "jsx-quotes": [2, "prefer-double"],
+
+    "no-unused-vars": [2, {"vars": "all", "args": "after-used"}],
+    "curly": 2,
+    "quotes": [2, "single"],
+    "no-cond-assign" : 2,
+    "no-debugger" : 2,
+    "no-console" : 2,
+    "no-dupe-args": 2,
+    "valid-typeof" : 2,
+    "complexity": [2, 5],
+    "max-depth": [2, 3],
+    "max-nested-callbacks": [2, 3],
+    "max-params": [2, 8],
+    "max-statements": [2, 10],
+    "dot-location" : [2, "property"],
+    "no-extra-semi" : 2,
+    "no-alert": 1,
+    "valid-jsdoc": 1,
+    "no-floating-decimal": 2,
+    "no-mixed-spaces-and-tabs": 2,
+    "accessor-pairs" : 2,
+    "eqeqeq" : 2,
+    "guard-for-in" : 2,
+    "no-else-return" : 0,
+
   }
 }

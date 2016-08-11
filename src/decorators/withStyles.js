@@ -1,4 +1,4 @@
-/*! React Starter Kit | MIT License | http://www.reactstarterkit.com/ */
+/* eslint max-statements:0 */
 
 import React, { PropTypes, Component } from 'react'; // eslint-disable-line no-unused-vars
 import invariant from 'fbjs/lib/invariant';

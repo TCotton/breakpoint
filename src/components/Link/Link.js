@@ -1,4 +1,4 @@
-/*! React Starter Kit | MIT License | http://www.reactstarterkit.com/ */
+/* eslint max-statements:0, complexity:0 */
 
 import React, { PropTypes, Component } from 'react';
 import Location from '../../core/Location';
