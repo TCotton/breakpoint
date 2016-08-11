@@ -70,7 +70,7 @@
     ]
   },
   "scripts": {
-    "lint": "eslint src tools",
+    "lint": "eslint src tools && jscs src tools",
     "fix": "jscs src tools --fix",
     "csslint": "csscomb src/components --lint --verbose",
     "csscomb": "csscomb src/components --verbose",
