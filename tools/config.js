@@ -10,6 +10,10 @@
 import path from 'path';
 import webpack from 'webpack';
 import merge from 'lodash.merge';
+/*import Dashboard from 'webpack-dashboard';
+import DashboardPlugin from 'webpack-dashboard/plugin';
+
+var dashboard = new Dashboard();*/
 
 const DEBUG = !process.argv.includes('release');
 const VERBOSE = process.argv.includes('verbose');
@@ -46,6 +50,7 @@ const config = {
   output: {
     publicPath: '/',
     sourcePrefix: '  ',
+    quiet: false,
   },
 
   cache: DEBUG,
@@ -64,7 +69,7 @@ const config = {
   },
 
   plugins: [
-    new webpack.optimize.OccurenceOrderPlugin(),
+    new webpack.optimize.OccurenceOrderPlugin()
   ],
 
   resolve: {
